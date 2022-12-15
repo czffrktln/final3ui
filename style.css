@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+  background: #eae9e4;
+  
+}
+ #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+#wrapper {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1280px;
+  row-gap: 100px;
+  column-gap: 20px;
+  padding: 80px;
+  height: 100%;
+}
+
+header {
+  color: #eae9e4;
+  background-color: #1c1717;
+  border-bottom: 2px solid #eae9e4;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header p {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+/* MQ
+logo fonst size 16px */
+
+.material-symbols-outlined {
+  font-size: 24px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.box {
+  
+  background: #eae9e4;
+  border: 1px solid #1c1717;
+  color:#1c1717;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+ 
+  height: 75%;
+  padding: 40px;
+}
+
+.price {
+  
+  height: 25%;
+  background-color: #1c1717;
+  color: #eae9e4;
+  width: 100%;
+  text-align: center;
+  padding-top: auto;
+  padding-bottom: auto;
+
+}
+
+/* .number {
+  border: 2px solid #1c1717;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  position: absolute;
+  top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #efd592;
+  background: #eae9e4;
+  
+} */
+
+button {
+  
+  background: #eae9e4;
+  color: #1c1717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  height: 40px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right:0;
+  bottom: -40px;
+  font-size: 14px;
+}
+
+button:hover {
+   border-bottom: 1px solid #1c1717;
+}
+
+/* button:hover .arrow {
+  color: #242D38;
+} */
+
+.title {
+  font-size: 36px;
+  font-weight: regular;
+}
+
+.sub {
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+.year, .text {
+  font-size: 24px;
+}
+
+hr {
+  color: #eae9e4;
+}
